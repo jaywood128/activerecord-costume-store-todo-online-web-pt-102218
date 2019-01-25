@@ -1,4 +1,4 @@
-class Costume < ActiveRecord::Mirgration[4.2]
+class Costumes < ActiveRecord::Mirgration[4.2]
 
   def change
     create_table :costumes do |t|
