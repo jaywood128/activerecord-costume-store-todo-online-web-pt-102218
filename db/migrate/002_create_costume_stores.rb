@@ -6,7 +6,5 @@ class CreateCostumeStores < ActiveRecord:Migration[4.1]
       t.text :location
     end
   end
-
-
 end
 # Create your costume_stores migration here
