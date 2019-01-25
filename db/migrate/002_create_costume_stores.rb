@@ -1,5 +1,5 @@
 class CreateCostumeStores < ActiveRecord:Migration[4.1]
 
-  
-end 
+
+end
 # Create your costume_stores migration here
