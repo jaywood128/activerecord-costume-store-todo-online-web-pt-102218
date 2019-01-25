@@ -4,6 +4,12 @@ class HauntedHouses < ActiveRecord::Migration[4.2]
     create_table :haunted_houses do |t|
       t.string :name
       t.text :location
+      t.string :theme
+      t.float :price
+      t.boolean :family_friendly
+      t.datetime :opening_date
+      t.timedate :closing_date
+      t.text :description
     end
   end
 end# Create your haunted_houses migration here
