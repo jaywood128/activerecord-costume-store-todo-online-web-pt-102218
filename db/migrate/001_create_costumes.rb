@@ -5,7 +5,6 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
       t.text :name
     end
   end
-
 end
 
 # Create a class and inherit from ActiveRecord::Migration
